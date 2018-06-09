@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd46c4b4-1ab3-4e1c-95be-6362c5e0ccfc" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/bootstrap/cache/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/cache/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/cache/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/cache/services.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
-    </list>
+    <list default="true" id="dd46c4b4-1ab3-4e1c-95be-6362c5e0ccfc" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -468,12 +462,12 @@
       <workItem from="1526924958068" duration="108729000" />
       <workItem from="1527867805646" duration="27175000" />
       <workItem from="1527927154215" duration="110702000" />
-      <workItem from="1528482223785" duration="10866000" />
+      <workItem from="1528482223785" duration="11161000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="258658000" />
+    <option name="totallyTimeSpent" value="258953000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="293" y="30" width="1391" height="1000" extended-state="0" />
