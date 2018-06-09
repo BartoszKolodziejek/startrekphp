@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd46c4b4-1ab3-4e1c-95be-6362c5e0ccfc" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/resources/views/admin-delete-games.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin-delete-games.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin-delete-users.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin-delete-users.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/statistics.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/statistics.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,7 +43,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin-delete-games.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="admin-delete-games.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/admin-delete-games.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
@@ -56,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <file leaf-file-name="composer.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="340">
+              <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -168,7 +164,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/resources/views/admin-game-created.blade.php" />
         <option value="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2018_05_28_211041_games.php" />
         <option value="$PROJECT_DIR$/database/migrations/2018_05_28_211107_settings.php" />
@@ -219,6 +214,7 @@
         <option value="$PROJECT_DIR$/resources/views/statistics.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin-delete-users.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin-delete-games.blade.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
       </list>
     </option>
   </component>
@@ -368,7 +364,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="Route&#9;null&#9;null&#10;.h&#9;FILE&#9;file://C:/xampp/htdocs/StarTrek/public/.htaccess&#10;conf&#9;FILE&#9;file://C:/xampp/htdocs/StarTrek/bootstrap/cache/config.php&#10;Admin&#9;null&#9;null&#10;animation.js&#9;FILE&#9;file://C:/xampp/htdocs/StarTrek/public/assets/js/animation.js" />
+    <property name="SearchEverywhereHistoryKey" value="composer.&#9;FILE&#9;file://C:/xampp/htdocs/StarTrek/composer.json&#10;Route&#9;null&#9;null&#10;.h&#9;FILE&#9;file://C:/xampp/htdocs/StarTrek/public/.htaccess&#10;conf&#9;FILE&#9;file://C:/xampp/htdocs/StarTrek/bootstrap/cache/config.php&#10;Admin&#9;null&#9;null&#10;animation.js&#9;FILE&#9;file://C:/xampp/htdocs/StarTrek/public/assets/js/animation.js" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../php/phpdbg.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -440,12 +436,12 @@
       <workItem from="1526924958068" duration="108729000" />
       <workItem from="1527867805646" duration="27175000" />
       <workItem from="1527927154215" duration="110702000" />
-      <workItem from="1528482223785" duration="12327000" />
+      <workItem from="1528482223785" duration="12785000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="260119000" />
+    <option name="totallyTimeSpent" value="260577000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="293" y="30" width="1391" height="1000" extended-state="0" />
@@ -568,7 +564,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/database/migrations/2018_05_31_154909_achivements.php" />
     <entry file="file://$PROJECT_DIR$/database/migrations/2018_05_29_194751_sectors.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
@@ -977,6 +972,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="58" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
         </state>
       </provider>
     </entry>
