@@ -1,4 +1,4 @@
-
+﻿
 # Tytuł projektu
 Startrek
 
@@ -36,7 +36,7 @@ php artisan migrate
 ## Autor
 
 * **Bartosz Kołodziejek** 
-* *nr  album: 357137*
+* *nr  album: XXXXXX*
 * *b_kolo*
 
 ## Wykorzystane zewnętrzne biblioteki
