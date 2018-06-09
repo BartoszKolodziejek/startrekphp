@@ -1,27 +1,46 @@
-# Laravel PHP Framework
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+# Tytuł projektu
+Startrek
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+## Wymagania systemowe
+* wersja apache2
+* wersja PHP 5.5.9 - 7.1.*
+* wersja MySQL Maria DB 10.2
+* wersja larevel framework 5.2
+* composer
+* rozszerzenie PHP OpenSSL  
+* rozszerzenie PHP PDO 
+* rozszerzenie PHP Mbstring  
+* rozszerzenie PHP Tokenizer  
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
 
-## Official Documentation
+## Instalacja
+Wersja uproszczona (jeśli nie brakuje uprawnień)
+1) kopiujemy pliki na serwer
+2) odpalamy installer.php
+3) tworzymy konto admina (normalna procedura rejestracji)
+4) odpalamy postinstaller
+Kiedy wersja uproszczona nie działa
+1) kopiujemy pliki na serwer
+2) wykonujemy ręcznie następujące komendy:
+php composer install
+php composer.phar dumpautoload -o
+php artisan config:cache
+php artisan route:cache
+php artisan migrate
+3) odpalamy installer light
+4) tworzymy konto admina (normalna procedura rejestracji)
+5) odpalamy postinstaller
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
 
-## Contributing
+## Autor
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
+* **Bartosz Kołodziejek** 
+* *nr  album: 357137*
+* *b_kolo*
 
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+## Wykorzystane zewnętrzne biblioteki
+ 
+* jquery 3.3.1
+* larevel framework 5.2.45
+* bootstrap 4
