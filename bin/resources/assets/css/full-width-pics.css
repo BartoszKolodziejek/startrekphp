@@ -1,0 +1,109 @@
+/*!
+ * Start Bootstrap - Full Width Pics (https://startbootstrap.com/template-overviews/full-width-pics)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-full-width-pics/blob/master/LICENSE)
+ */
+
+body {}
+
+button.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+@media (min-width: 992px) {
+  body, html {
+    height: 100%;
+  }
+
+  .bg {
+    /* The image used */
+    background-image: url("https://orig00.deviantart.net/3d39/f/2012/174/5/3/stealing_the_enterprise_by_thefirstfleet-d54kz2z.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .window{
+    background-color: #32383e;
+    opacity: 0.75;
+
+    position: absolute;
+
+    color: #ffffff;
+    left: 25%;
+    right: 25%;
+    bottom: 30%;
+    top: 25%;
+
+  }
+
+  .window{
+    background-color: #32383e;
+    opacity: 0.75;
+
+    position: absolute;
+
+    color: #ffffff;
+    left: 25%;
+    right: 25%;
+    bottom: 30%;
+    top: 25%;
+    margin-top: 25%;
+
+  }
+  .text2{
+    position: relative;
+    float: inside;
+    text-align: center;
+    top: 50%;
+    color: #ffffff;
+
+
+
+  }
+  .text{
+    position: relative;
+    float: outside;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+
+
+
+  }
+
+  .form{
+    position: relative;
+    float: inside;
+    color: #ffffff;
+
+  }
+
+  .label-st{
+    position: relative;
+    float: inside;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+  }
+
+
+
+}
+
