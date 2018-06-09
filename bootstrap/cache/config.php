@@ -214,7 +214,7 @@
         'charset' => 'utf8',
         'collation' => 'utf8_unicode_ci',
         'prefix' => '',
-        'strict' => true,
+        'strict' => false,
         'engine' => NULL,
       ),
       'pgsql' => 
@@ -379,7 +379,7 @@
   array (
     'paths' => 
     array (
-      0 => '/resources/views',
+      0 => 'C:\\xampp\\htdocs\\StarTrek\\resources\\views',
     ),
     'compiled' => 'C:\\xampp\\htdocs\\StarTrek\\storage\\framework\\views',
   ),
