@@ -77,5 +77,5 @@
     <div class="window" id="hello">
         <h1 class="text-white">Aby przejrzeć statystyki zaloguj się</h1>
     </div>
-    <script src="{{asset('assets/js/statistics-receiver.js')}}"></script>
+    <script src="{{asset('assets/js/statistics-receiver.js', true)}}"></script>
     @endsection

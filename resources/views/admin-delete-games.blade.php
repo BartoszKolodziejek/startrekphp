@@ -5,5 +5,5 @@
 
     </div>
 
-    <script src="{{asset('assets/js/admin-actions.js')}}"></script>
+    <script src="{{asset('assets/js/admin-actions.js',true)}}"></script>
 @endsection

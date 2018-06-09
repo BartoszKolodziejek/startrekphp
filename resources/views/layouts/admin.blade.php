@@ -11,10 +11,10 @@
     <title>Simple Sidebar - Start Bootstrap Template</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="{{asset('assets/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{asset('assets/bootstrap/css/bootstrap.min.css', true)}}" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="{{asset('assets/css/simple-sidebar.css')}}" rel="stylesheet">
+    <link href="{{asset('assets/css/simple-sidebar.css', true)}}" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -58,9 +58,9 @@
 <!-- /#wrapper -->
 
 <!-- Bootstrap core JavaScript -->
-<script src="{{asset('assets/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
-<script src="{{asset('assets/jquery/jquery.slim.js')}}"></script>
-<script src="{{asset('assets/jquery/ajax.js')}}"></script>
+<script src="{{asset('assets/bootstrap/js/bootstrap.bundle.min.js', true)}}"></script>
+<script src="{{asset('assets/jquery/jquery.slim.js', true)}}"></script>
+<script src="{{asset('assets/jquery/ajax.js', true)}}"></script>
 <!-- Menu Toggle Script -->
 <script>
     $("#menu-toggle").click(function(e) {
@@ -68,7 +68,7 @@
         $("#wrapper").toggleClass("toggled");
     });
 </script>
-<script src="{{asset('assets/js/waiting.js')}}"></script>
+<script src="{{asset('assets/js/waiting.js', true)}}"></script>
 
 </body>
 

@@ -11,10 +11,10 @@
     <title>Star Trek PHP Edition</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="{{asset('assets/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{asset('assets/bootstrap/css/bootstrap.min.css', true)}}" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="{{asset('assets/css/full-width-pics.css')}}" rel="stylesheet">
+    <link href="{{asset('assets/css/full-width-pics.css', true)}}" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
 </head>
 
@@ -38,13 +38,13 @@
 
 
 <!-- Bootstrap core JavaScript -->
-<script src="{{asset('assets/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
-<script src="{{asset('assets/jquery/jquery.slim.js')}}"></script>
-<script src="{{asset('assets/jquery/ajax.js')}}"></script>
+<script src="{{asset('assets/bootstrap/js/bootstrap.bundle.min.js', true)}}"></script>
+<script src="{{asset('assets/jquery/jquery.slim.js', true)}}"></script>
+<script src="{{asset('assets/jquery/ajax.js', true)}}"></script>
 
 <!-- Animation script -->
-<script src="{{asset('assets/js/animation.js')}}"></script>
-<script src="{{asset('assets/js/available-games-receiving.js')}}"></script>
+<script src="{{asset('assets/js/animation.js',true)}}"></script>
+<script src="{{asset('assets/js/available-games-receiving.js',true)}}"></script>
 
 </body>
 
